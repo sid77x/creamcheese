@@ -26,7 +26,7 @@
         {
             message.reply("you are gay")
         }
-    const welcomeChannelId = "923999687999098983"
+    const welcomeChannelId = "1035202801351008279"
     })
     client.on("guildMemberAdd", (member) => {
         member.guild.channels.cache.get(welcomeChannelId).send(`<@${member.id} Welcome to the server`)
